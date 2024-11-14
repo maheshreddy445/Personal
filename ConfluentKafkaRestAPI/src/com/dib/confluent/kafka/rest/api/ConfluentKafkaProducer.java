@@ -24,7 +24,7 @@ public class ConfluentKafkaProducer {
       final Properties config = readConfig("client.properties");
 
       produce(topic, config);
-      consume(topic, config);
+     // consume(topic, config);
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -39,7 +39,7 @@ public class ConfluentKafkaProducer {
       final Properties config = readConfig("client.properties");
 
       produce(topic, config);
-      consume(topic, config);
+     // consume(topic, config);
     } catch (IOException e) {
       e.printStackTrace();
     }
