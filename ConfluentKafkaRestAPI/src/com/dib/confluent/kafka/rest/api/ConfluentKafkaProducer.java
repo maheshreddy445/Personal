@@ -1,4 +1,4 @@
-package com.dib.confluent.kafka.rest.api;
+package com.test.confluent.kafka.rest.api;
 
 
 import java.lang.System;
